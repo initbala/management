@@ -1,0 +1,544 @@
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2024-05-23T04:27:26.698Z",
+    "__export_source": "insomnia.desktop.app:v9.2.0",
+    "resources": [
+        {
+            "_id": "req_14f6f7d6de7a46d9b2146b2e1bb7b82d",
+            "parentId": "wrk_scratchpad",
+            "modified": 1716437249306,
+            "created": 1716358489598,
+            "url": "https://localhost:7245/api/Employee/HighestsalEmployee",
+            "name": "HIGHEST SALARY",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "preRequestScript": "",
+            "parameters": [
+                {
+                    "id": "pair_9a5100dcfca64256aadc628e591ca2d8",
+                    "name": "",
+                    "value": "",
+                    "description": ""
+                }
+            ],
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/9.2.0",
+                    "id": "pair_1464e1bc09964b46ae2c3cc1142864ed"
+                },
+                {
+                    "id": "pair_e4279de220714aeea39b576994276f0d",
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRlc3QiLCJyb2xlIjoiQWRtaW4iLCJuYmYiOjE3MTY0MzcyMjMsImV4cCI6MTcxNjQ0MDgyMywiaWF0IjoxNzE2NDM3MjIzfQ.fA2IvOzDgk6IvbM9iivpv87lb2SVKNSnulYBouHqzK8",
+                    "description": ""
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1716358489598,
+            "isPrivate": false,
+            "pathParameters": [],
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "wrk_scratchpad",
+            "parentId": null,
+            "modified": 1716290852202,
+            "created": 1716290852202,
+            "name": "Scratch Pad",
+            "description": "",
+            "scope": "collection",
+            "_type": "workspace"
+        },
+        {
+            "_id": "req_aa4f9b0e3538460ea1c35ede0999c213",
+            "parentId": "wrk_scratchpad",
+            "modified": 1716437975214,
+            "created": 1716360912567,
+            "url": "https://localhost:7245/api/Employee/LongtermEmployees",
+            "name": "LONGTERM EMPLOYEE",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "preRequestScript": "",
+            "parameters": [
+                {
+                    "id": "pair_9a5100dcfca64256aadc628e591ca2d8",
+                    "name": "fromDte",
+                    "value": "5/1/2024",
+                    "description": ""
+                },
+                {
+                    "id": "pair_2727cc03700f4b238b6a94c3eaafe661",
+                    "name": "toDte",
+                    "value": "5/10/2024",
+                    "description": ""
+                }
+            ],
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/9.2.0",
+                    "id": "pair_1464e1bc09964b46ae2c3cc1142864ed"
+                },
+                {
+                    "id": "pair_e4279de220714aeea39b576994276f0d",
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRlc3QiLCJyb2xlIjoiQWRtaW4iLCJuYmYiOjE3MTY0MzcyMjMsImV4cCI6MTcxNjQ0MDgyMywiaWF0IjoxNzE2NDM3MjIzfQ.fA2IvOzDgk6IvbM9iivpv87lb2SVKNSnulYBouHqzK8",
+                    "description": ""
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1716335105267.375,
+            "isPrivate": false,
+            "pathParameters": [],
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_b04c98389d254066b90b2c6d234d6fac",
+            "parentId": "wrk_scratchpad",
+            "modified": 1716360000724,
+            "created": 1716360000724,
+            "url": "https://localhost:7245/api/Employee/HighestsalEmployee",
+            "name": "RETRIVE EMPLOYEE",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "preRequestScript": "",
+            "parameters": [
+                {
+                    "id": "pair_9a5100dcfca64256aadc628e591ca2d8",
+                    "name": "",
+                    "value": "",
+                    "description": ""
+                }
+            ],
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/9.2.0",
+                    "id": "pair_1464e1bc09964b46ae2c3cc1142864ed"
+                },
+                {
+                    "id": "pair_e4279de220714aeea39b576994276f0d",
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRlc3QiLCJyb2xlIjoiQWRtaW4iLCJuYmYiOjE3MTYzNTg2ODQsImV4cCI6MTcxNjM2MjI4NCwiaWF0IjoxNzE2MzU4Njg0fQ.UltxWEv7t3oSfzSfB5_Bi9BAXPKiK5VkPuVK6RoWUt4",
+                    "description": ""
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1716327310490.5,
+            "isPrivate": false,
+            "pathParameters": [],
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_60c68a42caf54875a62fdc7f5209726e",
+            "parentId": "wrk_scratchpad",
+            "modified": 1716358549499,
+            "created": 1716296131383,
+            "url": "https://localhost:7245/api/Auth/GetToken",
+            "name": "TOKEN GENERATE",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"Username\":\"test\",\n\t\"Password\":\"password\",\n\t\"Role\":\"Admin\"\n}"
+            },
+            "preRequestScript": "",
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/9.2.0"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1716296131383,
+            "isPrivate": false,
+            "pathParameters": [],
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_dc5ce6f9d93d4b158e4d16c3dcc6d92b",
+            "parentId": "wrk_scratchpad",
+            "modified": 1716437739197,
+            "created": 1716291521750,
+            "url": "https://localhost:7245/api/Department/CreateDepartment",
+            "name": "CREATE DEPARTMENT",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n    \"Depid\": \"12\",\n    \"Dep\": \"ECE\"\n}\n"
+            },
+            "preRequestScript": "",
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_0e87ee38fdd848f39a7f4c9a4418e830"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/9.2.0",
+                    "id": "pair_c8c5a92178b94b38a429e510d97e5388"
+                },
+                {
+                    "id": "pair_44b3483f82c84fffa7aeb35709b44be5",
+                    "name": "Authorization",
+                    "value": "Bearer ",
+                    "description": ""
+                }
+            ],
+            "authentication": {
+                "type": "bearer",
+                "token": "{\t\"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRlc3QiLCJuYmYiOjE3MTYyOTY3MzUsImV4cCI6MTcxNjMwMDMzNSwiaWF0IjoxNzE2Mjk2NzM1fQ.jcLuQjhfg1aqhUwRG3OYBPx1JJUwTa0FC7llunIyJD8\"}",
+                "disabled": true
+            },
+            "metaSortKey": -1716291521750,
+            "isPrivate": false,
+            "pathParameters": [],
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_cd697fceb8ae49dbb2b03963fc13e508",
+            "parentId": "wrk_scratchpad",
+            "modified": 1716437912231,
+            "created": 1716356680586,
+            "url": "https://localhost:7245/api/Employee/CreateEmployee",
+            "name": "CREATE EMPLOYEE",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n  \"Name\": \"Bala g\",\n  \"Address\": \"123 Main St\",\n  \"Id\": \"17\",\n  \"Joining\": \"2024-05-01\",\n  \"Department\": \"101\",\n  \"Salary\": \"55000\"\n}\n"
+            },
+            "preRequestScript": "",
+            "parameters": [
+                {
+                    "id": "pair_2f894a5d80444eb9bac7d80a23a40040",
+                    "name": "empId",
+                    "value": "778hjgvjhg",
+                    "description": ""
+                }
+            ],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_0e87ee38fdd848f39a7f4c9a4418e830"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/9.2.0",
+                    "id": "pair_c8c5a92178b94b38a429e510d97e5388"
+                },
+                {
+                    "id": "pair_44b3483f82c84fffa7aeb35709b44be5",
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRlc3QiLCJyb2xlIjoiQWRtaW4iLCJuYmYiOjE3MTY0MzcyMjMsImV4cCI6MTcxNjQ0MDgyMywiaWF0IjoxNzE2NDM3MjIzfQ.fA2IvOzDgk6IvbM9iivpv87lb2SVKNSnulYBouHqzK8",
+                    "description": ""
+                }
+            ],
+            "authentication": {
+                "type": "bearer",
+                "token": "{\t\"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRlc3QiLCJuYmYiOjE3MTYyOTY3MzUsImV4cCI6MTcxNjMwMDMzNSwiaWF0IjoxNzE2Mjk2NzM1fQ.jcLuQjhfg1aqhUwRG3OYBPx1JJUwTa0FC7llunIyJD8\"}",
+                "disabled": true
+            },
+            "metaSortKey": -1716291521737.5,
+            "isPrivate": false,
+            "pathParameters": [],
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_6182a277e8204851b77108459e6e22ac",
+            "parentId": "wrk_scratchpad",
+            "modified": 1716395042951,
+            "created": 1716357797548,
+            "url": "https://localhost:7245/api/Employee/UpdateEmployee",
+            "name": "UPDATE EMPLOYEE",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n  \"Name\": \"Bala mURUHANr\",\n  \"Address\": \"123 Main St\",\n  \"Id\": \"10\",\n  \"Joining\": \"2024-05-01\",\n  \"Department\": \"101\",\n  \"Salary\": \"55000\"\n}\n"
+            },
+            "preRequestScript": "",
+            "parameters": [
+                {
+                    "id": "pair_2f894a5d80444eb9bac7d80a23a40040",
+                    "name": "empId",
+                    "value": "778hjgvjhg",
+                    "description": ""
+                }
+            ],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_0e87ee38fdd848f39a7f4c9a4418e830"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/9.2.0",
+                    "id": "pair_c8c5a92178b94b38a429e510d97e5388"
+                },
+                {
+                    "id": "pair_44b3483f82c84fffa7aeb35709b44be5",
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRlc3QiLCJyb2xlIjoiQWRtaW4iLCJuYmYiOjE3MTYzOTQyNDQsImV4cCI6MTcxNjM5Nzg0NCwiaWF0IjoxNzE2Mzk0MjQ0fQ.E8yAbTnuUxGX5ld1tfq_B57Sg1TkPBNkfLHUoM1bCjQ",
+                    "description": ""
+                }
+            ],
+            "authentication": {
+                "type": "bearer",
+                "token": "{\t\"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRlc3QiLCJuYmYiOjE3MTYyOTY3MzUsImV4cCI6MTcxNjMwMDMzNSwiaWF0IjoxNzE2Mjk2NzM1fQ.jcLuQjhfg1aqhUwRG3OYBPx1JJUwTa0FC7llunIyJD8\"}",
+                "disabled": true
+            },
+            "metaSortKey": -1716291521731.25,
+            "isPrivate": false,
+            "pathParameters": [],
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_42265b20c4f04fab9f1d6cf5036d6032",
+            "parentId": "wrk_scratchpad",
+            "modified": 1716395103995,
+            "created": 1716355540922,
+            "url": "https://localhost:7245/api/Department/UpdateDepartment",
+            "name": "UPDATE DEPARTMENT",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n    \"Depid\": \"mm3\",\n    \"Dep\": \"IST\"\n}\n"
+            },
+            "preRequestScript": "",
+            "parameters": [
+                {
+                    "id": "pair_2f894a5d80444eb9bac7d80a23a40040",
+                    "name": "empId",
+                    "value": "778hjgvjhg",
+                    "description": ""
+                }
+            ],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_0e87ee38fdd848f39a7f4c9a4418e830"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/9.2.0",
+                    "id": "pair_c8c5a92178b94b38a429e510d97e5388"
+                },
+                {
+                    "id": "pair_44b3483f82c84fffa7aeb35709b44be5",
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRlc3QiLCJyb2xlIjoiQWRtaW4iLCJuYmYiOjE3MTYzOTQyNDQsImV4cCI6MTcxNjM5Nzg0NCwiaWF0IjoxNzE2Mzk0MjQ0fQ.E8yAbTnuUxGX5ld1tfq_B57Sg1TkPBNkfLHUoM1bCjQ",
+                    "description": ""
+                }
+            ],
+            "authentication": {
+                "type": "bearer",
+                "token": "{\t\"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRlc3QiLCJuYmYiOjE3MTYyOTY3MzUsImV4cCI6MTcxNjMwMDMzNSwiaWF0IjoxNzE2Mjk2NzM1fQ.jcLuQjhfg1aqhUwRG3OYBPx1JJUwTa0FC7llunIyJD8\"}",
+                "disabled": true
+            },
+            "metaSortKey": -1716291521725,
+            "isPrivate": false,
+            "pathParameters": [],
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_09b6e987f4734dc3ae215e1dc898e348",
+            "parentId": "wrk_scratchpad",
+            "modified": 1716355494019,
+            "created": 1716354803001,
+            "url": "https://localhost:7245/api/Department/DeleteDepartment",
+            "name": "DELETE DEPARTMENT",
+            "description": "",
+            "method": "GET",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{}"
+            },
+            "preRequestScript": "",
+            "parameters": [
+                {
+                    "id": "pair_2f894a5d80444eb9bac7d80a23a40040",
+                    "name": "Id",
+                    "value": "5",
+                    "description": ""
+                }
+            ],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_0e87ee38fdd848f39a7f4c9a4418e830"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/9.2.0",
+                    "id": "pair_c8c5a92178b94b38a429e510d97e5388"
+                },
+                {
+                    "id": "pair_44b3483f82c84fffa7aeb35709b44be5",
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRlc3QiLCJyb2xlIjoiQWRtaW4iLCJuYmYiOjE3MTYzNTM0MjAsImV4cCI6MTcxNjM1NzAyMCwiaWF0IjoxNzE2MzUzNDIwfQ.7GGFau5QzUegrc2qWv6X7S0X7bH_u6zLt6TkLKdfQc8",
+                    "description": ""
+                }
+            ],
+            "authentication": {
+                "type": "bearer",
+                "token": "{\t\"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRlc3QiLCJuYmYiOjE3MTYyOTY3MzUsImV4cCI6MTcxNjMwMDMzNSwiaWF0IjoxNzE2Mjk2NzM1fQ.jcLuQjhfg1aqhUwRG3OYBPx1JJUwTa0FC7llunIyJD8\"}",
+                "disabled": true
+            },
+            "metaSortKey": -1716291521700,
+            "isPrivate": false,
+            "pathParameters": [],
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_0ce3611903ed4f91961dc1e76169d51e",
+            "parentId": "wrk_scratchpad",
+            "modified": 1716395148149,
+            "created": 1716357949465,
+            "url": "https://localhost:7245/api/Employee/DeleteEmployee",
+            "name": "DELETE EMPLOYEE",
+            "description": "",
+            "method": "GET",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{}"
+            },
+            "preRequestScript": "",
+            "parameters": [
+                {
+                    "id": "pair_2f894a5d80444eb9bac7d80a23a40040",
+                    "name": "Id",
+                    "value": "10",
+                    "description": ""
+                }
+            ],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_0e87ee38fdd848f39a7f4c9a4418e830"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/9.2.0",
+                    "id": "pair_c8c5a92178b94b38a429e510d97e5388"
+                },
+                {
+                    "id": "pair_44b3483f82c84fffa7aeb35709b44be5",
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRlc3QiLCJyb2xlIjoiQWRtaW4iLCJuYmYiOjE3MTYzOTQyNDQsImV4cCI6MTcxNjM5Nzg0NCwiaWF0IjoxNzE2Mzk0MjQ0fQ.E8yAbTnuUxGX5ld1tfq_B57Sg1TkPBNkfLHUoM1bCjQ",
+                    "description": ""
+                }
+            ],
+            "authentication": {
+                "type": "bearer",
+                "token": "{\t\"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRlc3QiLCJuYmYiOjE3MTYyOTY3MzUsImV4cCI6MTcxNjMwMDMzNSwiaWF0IjoxNzE2Mjk2NzM1fQ.jcLuQjhfg1aqhUwRG3OYBPx1JJUwTa0FC7llunIyJD8\"}",
+                "disabled": true
+            },
+            "metaSortKey": -1716291521650,
+            "isPrivate": false,
+            "pathParameters": [],
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "env_99d30891da4bdcebc63947a8fc17f076de878684",
+            "parentId": "wrk_scratchpad",
+            "modified": 1716291496880,
+            "created": 1716291496880,
+            "name": "Base Environment",
+            "data": {},
+            "dataPropertyOrder": null,
+            "color": null,
+            "isPrivate": false,
+            "metaSortKey": 1716291496880,
+            "_type": "environment"
+        },
+        {
+            "_id": "jar_99d30891da4bdcebc63947a8fc17f076de878684",
+            "parentId": "wrk_scratchpad",
+            "modified": 1716291497123,
+            "created": 1716291497123,
+            "name": "Default Jar",
+            "cookies": [],
+            "_type": "cookie_jar"
+        }
+    ]
+}
